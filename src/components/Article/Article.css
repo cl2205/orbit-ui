@@ -1,0 +1,60 @@
+.message-bubble {
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 4px 0;
+  max-width: 272px; /* accounts for the padding to make the width=300 */
+  padding: 14px;
+}
+
+.mt {
+  background: #F3F2F6;
+  color: #242424;
+}
+
+.mt-link {
+  background: #F3F2F6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: #242424;
+  max-width: 300px;
+  padding: 0;
+  text-decoration: none;
+}
+
+  .container-msg {
+    padding: 14px;
+  }
+
+  .container-link {
+    background: #F3F2F6;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: #242424;
+    display: block;
+    padding: 0 8px 14px 8px;
+  }
+
+  .link-message {
+    display: inline-block;
+    padding-left: 8px;
+  }
+
+  .container-link:hover {
+    box-shadow: none;
+  }
+
+  .link-arrow {
+    border-radius: 28px;
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    background-image: url("https://images.contentful.com/awpxl2koull4/67EwXNcqnm6uI8ECcOkW82/25606df2cd74bd095a35f247c4461778/dailyshine-link-arrow.png?w=28&h=28");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;
+  }
+
+  .link-arrow:hover {
+    box-shadow: none;
+  }

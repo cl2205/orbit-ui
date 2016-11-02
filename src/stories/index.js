@@ -9,7 +9,7 @@ storiesOf('Welcome', module)
     <Welcome showApp={linkTo('Button')}/>
   ));
 
-storiesOf('Button', module)
+storiesOf('Sample Button', module)
   .add('with text', () => (
     <Button onClick={action('clicked')}>Hello Button</Button>
   ))
