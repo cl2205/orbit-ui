@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@kadira/react-storybook-addon-info": "^3.3.0",
     "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addon-knobs": "^1.4.1",
     "enzyme": "^2.5.1",
     "react-addons-test-utils": "^15.3.2",
-    "react-scripts": "0.6.1"
+    "react-scripts": "0.6.1",
+    "storybook-addon-specifications": "^1.0.15"
   },
   "dependencies": {
     "react": "^15.3.2",
