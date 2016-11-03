@@ -1,0 +1,14 @@
+.message-bubble {
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 4px 0;
+  max-width: 272px; /* accounts for the padding to make the width=300 */
+  padding: 14px;
+}
+
+.mt-media {
+  padding: 0;
+  max-width: 100%;
+}
